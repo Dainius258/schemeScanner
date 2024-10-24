@@ -1,7 +1,11 @@
 # ISA-5.1. Scheme scanner
-Frontend libraries (Make sure you install the latest KivyMD 2.0.1):
-- Kivy https://kivy.org/doc/stable/gettingstarted/installation.html
-- KivyMD (2.0.1) https://kivymd.readthedocs.io/en/latest/getting-started/
+Required libraries (Make sure you install the latest KivyMD 2.0.1):
+- Kivy: `pip install kivy`
+- KivyMD (2.0.1):
+`git clone https://github.com/kivymd/KivyMD.git --depth 1
+cd KivyMD
+pip install .`
+- ultralytics: ` pip install ultralytics`
 
-To launch the main program, type in the command line:
+To launch the main program, through terminal navigate to the "schemeScanner" folder and run:
 `python main.py`
