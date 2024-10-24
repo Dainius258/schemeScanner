@@ -89,7 +89,7 @@ class ObjectDetectionApp(MDApp):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         # Initialize the YOLO model
-        self.model = YOLO("models/15.10.onnx")
+        self.model = YOLO("models/22.10.onnx")
         self.file_manager = None
         self.current_image_path = None
     
